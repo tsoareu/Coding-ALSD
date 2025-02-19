@@ -5,7 +5,7 @@ public class DosenMain08 {
         System.out.println("PROGRAM DATA DOSEN");
         System.out.println("==================");
 
-        Dosen08 dosen1 = new Dosen08();
+        Dosen08 dosen1 = new Dosen08("245637899", "Kim Mingyu", true, 2022, "Arsitektur");
         dosen1.idDosen = "245637899";
         dosen1.nama = "Kim Mingyu";
         dosen1.statusAktif = true;
@@ -25,7 +25,7 @@ public class DosenMain08 {
 
         System.out.println();
         
-        Dosen08 dosen2 = new Dosen08();
+        Dosen08 dosen2 = new Dosen08("245637999", "Drew Starkey", false, 1995, "Sejarah");
         dosen2.idDosen = "245637999";
         dosen2.nama = "Drew Starkey";
         dosen2.statusAktif = false;
