@@ -14,9 +14,11 @@ public class Dosen08 {
     }
 
     public void tampilkanInfo() {
+        System.out.println();
+        System.out.println("Informasi Data Dosen");
         System.out.println("Kode          : " + kode);
         System.out.println("Nama          : " + nama);
-        System.out.println("Jenis Kelamin : " + (jenisKelamin ? "Wanita" : "Pria"));
+        System.out.println("Jenis Kelamin : " + (jenisKelamin ? "P" : "W"));
         System.out.println("Usia          : " + usia);
         System.out.println("---------------------------");
         }
