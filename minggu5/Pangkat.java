@@ -8,7 +8,7 @@ public class Pangkat {
         this.pangkat = pangkat;
     }
 
-    public int pangkatBF(int nilai, int pangkat) {
+    public int pangkatBF() { 
         int hasil = 1;
         for (int i = 0; i < pangkat; i++) {
             hasil *= nilai;
@@ -17,14 +17,16 @@ public class Pangkat {
     }
 
     public int pangkatDC(int nilai, int pangkat) {
-        if (pangkat == 0) {
-            return 1;
-        } else if (pangkat % 2 == 1) {
-            return nilai * pangkatDC(nilai, pangkat - 1);
-        } else {
-            int hasil = pangkatDC(nilai, pangkat / 2);
-            return hasil * hasil;
-        }
+            if (pangkat == 0) {
+                return 1; 
+            }
+            
+            if (pangkat % 2 == 1) { 
+                return (pangkatDC(nilai, pangkat / 2) * pangkatDC(nilai, pangkat / 2) * nilai);
+            } else { 
+                return (pangkatDC(nilai, pangkat / 2) * pangkatDC(nilai, pangkat / 2));
+            }
+        }   
     }
-}
+
 
