@@ -1,11 +1,11 @@
 package Praktikum05;
 
-public class Dosen {
+public class Dosen08 {
     String kode, nama;
     int usia;
     boolean jenisKelamin;
 
-    public Dosen(String kd, String name, boolean jk, int age) {
+    public Dosen08(String kd, String name, boolean jk, int age) {
         kode = kd;
         nama = name;
         jenisKelamin = jk;
