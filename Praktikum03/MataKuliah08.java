@@ -30,10 +30,6 @@ public class MataKuliah08 {
         System.out.println("------------------------");
         System.out.println("Informasi Mata Kuliah");
         System.out.println("------------------------");
-        this.kode = kode;
-        this.nama = nama;
-        this.sks = sks;
-        this.jumlahJam = jumlahJam;
         System.out.println("===========================");
     }
 }

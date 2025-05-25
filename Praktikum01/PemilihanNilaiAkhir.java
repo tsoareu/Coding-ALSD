@@ -5,8 +5,6 @@ public class PemilihanNilaiAkhir {
         Scanner sc = new Scanner(System.in);
         int tugas, kuis, uts, uas;
         double nilaiAkhir;
-        int jumlah = 4;
-        int batas = 0;
         String nilaiHuruf = " ";
 
         System.out.println("Program Menghitung Nilai Akhir");
